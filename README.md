@@ -1,5 +1,6 @@
-  <!-- # ![HOMI](https://max7586.github.io/homi-app/images/4v35Y2.png) -->
-  <img src="https://max7586.github.io/homi-app/images/4v35Y2.png" width="100" >
+  <!-- # ![](https://max7586.github.io/homi-app/images/4v35Y2.png) -->
+
+  <img src="images/4v35Y2.png" width="100" >
 
 # Homi -- web Application
 
@@ -7,7 +8,7 @@
 
 ## Table of contents
 
-- [General info](#general-info)
+- [App Description](#app-description)
 - [Live Demo](#live-demo)
 - [Server-site repo](#server-site-repo)
 - [Site Screenshots](#site-screenshots)
@@ -18,7 +19,7 @@
 
   <!-- # ![WebApp](https://max7586.github.io/homi/images/demo/demo_landing.JPG) -->
 
-## General info
+## App Description
 
 <table>
 <tr>
