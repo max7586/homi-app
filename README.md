@@ -19,7 +19,7 @@
 <table>
 <tr>
 <td>
-  HOMI is a simple real-estate app where user can list their house for sale, user can buy houses from the list, user can find rental houses and as wel as users can rent their own house. This app helps the user to find an expert agent to help users house purchase. This website does not use any third-party API. This website is supported on Chrome, Firefox and Safari.
+  HOMI is a real-estate app. It's a full-stack web-app build with React, CSS, Node, Express, and Postgresql. In this app users can list their house for sale, users can buy houses from the list, user can find rental houses and as well as users can rent their own house. This app helps the user to find an expert agent to help users to purchase house. This website does not use any third-party API. This website is supported on Chrome, Firefox, and Safari. This app is a fully responsive website. 
 </td>
 </tr>
 </table>
