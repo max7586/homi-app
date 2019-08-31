@@ -1,4 +1,5 @@
-  # ![HOMI](https://max7586.github.io/homi-app/images/4v35Y2.png)
+  <!-- # ![HOMI](https://max7586.github.io/homi-app/images/4v35Y2.png) -->
+  ❮img src="https://max7586.github.io/homi-app/images/4v35Y2.png" width="100" ❯
 # HOMI -- web Application
 
 > HOMI is a simple real-estate application
