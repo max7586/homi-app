@@ -11,11 +11,13 @@
 - [App Description](#app-description)
 - [Live Demo](#live-demo)
 - [Server-site repo](#server-site-repo)
+- [As a user](#as-a-user)
 - [Site Screenshots](#site-screenshots)
 - [Mobile support](#mobile-support)
 - [Built with](#build-with)
+- [HTML wireframe](#html-wireframe)
 - [Development](#development)
-- [As a user](#as-a-user)
+
 
   <!-- # ![WebApp](https://max7586.github.io/homi/images/demo/demo_landing.JPG) -->
 
@@ -86,6 +88,32 @@
 
 - Reactjs
 - vanilla CSS
+
+## HTML wireframe
+- Landing page
+  - [ live version of the HTML wireframe](https://max7586.github.io/homi-client/wireframes/landingPage)
+  - __User stories:__ As a user I want some kind of direction that assists me to use the app in the intended way. 
+  - __Task flow:__ On the landing page, website direct users on how to utilize this service as intended.
+
+- Sign In Page
+  - [ live version of the HTML wireframe](https://max7586.github.io/homi-client/wireframes/signInPage)
+  - __User stories:__ As a user I want to Login.
+  - __Task flow:__ This should just be a simple login form. User goes to sign-in page from navbar then on submit button user can log in if they type valid user name and password 
+
+- Sign Un Page
+  - [ live version of the HTML wireframe](https://max7586.github.io/homi-client/wireframes/signUpPage)
+  - __User stories:__ As a user I want to create an account.
+  - __Task flow:__ This should be like most registration forms. The fields needed from the user will be a valid email, a user name, and a password.
+
+- Add Property Page
+  - [ live version of the HTML wireframe](https://max7586.github.io/homi-client/wireframes/addPropPage)
+  - __User stories:__ As a user, I want to add my property for rent or sell.
+  - __Task flow:__ User goes to add-property page from navbar then Users should have the basic capability to add property for rent or sell.
+
+- Properties List Page
+  - [ live version of the HTML wireframe](https://max7586.github.io/homi-client/wireframes/propsList)
+  - __User stories:__ As a user, I want to buy or rent property from properties list.
+  - __Task flow:__ User goes to properties list page from navbar then User should able to buy or rent property from properties list.
 
 ## Development
 
