@@ -108,7 +108,7 @@ background-color: rgba(255, 255, 255, 0.582);
 }
 
 
-/* .main section {
+.main section {
   width: 70%;
   padding: 90px 0;
   margin: 50px auto 150px auto;
@@ -116,7 +116,7 @@ background-color: rgba(255, 255, 255, 0.582);
   grid-template-columns: 2fr 3fr;
   align-items: center;
 
-} */
+}
 
 .main section h2 {
   font-size: 4.3rem;
