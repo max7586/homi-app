@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Input, Required } from '../Utils/Utils'
 
-import AuthApiService from '../../services/auth-api-service'
+import PropertyApiService from '../../services/property-api-service'
 
 export default class ListMyPropertyForm extends Component {
   static defaultProps = {
@@ -12,26 +12,24 @@ export default class ListMyPropertyForm extends Component {
 
   handleSubmit = ev => {
     ev.preventDefault()
-    const { address, nick_name, user_name, password } = ev.target
+
+    // title is an address 
+    // 
+    const { title, content, image } = ev.target
 
      this.setState({ error: null })
-     AuthApiService.postUser({
-       user_name: user_name.value,
-       password: password.value,
-       address: address.value,
-       nickname: nick_name.value,
-     })
-       .then(user => {
-    address.value = ''
-    nick_name.value = ''
-    user_name.value = ''
-    password.value = ''
-    this.props.onRegistrationSuccess()
-           })
-       .catch(res => {
-         this.setState({ error: res.error })
-       })
-  }
+     PropertyApiService.postProperty(title.value, content.value, image.value) //create postProperty
+     .then(this.context.addProperty) //create addProperty
+     .then(() => {
+      title.value = ''
+      content.value = ''
+      image.value = ''
+      this.props.onAddPropertySuccess()
+             })
+         .catch(res => {
+           this.setState({ error: res.error })
+         })
+    }
 
 
   render() {
@@ -44,28 +42,28 @@ export default class ListMyPropertyForm extends Component {
         <div role='alert'>
           {error && <p className='red'>{error}</p>}
         </div>
-        <div className='address'>
-          <label htmlFor='ListMyPropertyForm__address'>
+        <div className='title'>
+          <label htmlFor='ListMyPropertyForm__title'>
             Address <Required />
           </label>
           <Input
-            name='address'
+            name='title'
             placeholder='101 street, city, state, ZIP code'
             type='text'
             required
-            id='ListMyPropertyForm__address'>
+            id='ListMyPropertyForm__title'>
           </Input>
         </div>
-        <div className='img'>
-          <label htmlFor='ListMyPropertyForm__img'>
+        <div className='image'>
+          <label htmlFor='ListMyPropertyForm__image'>
             Image URL <Required />
           </label>
           <Input
-            name='img'
+            name='image'
             placeholder= 'https://loremflickr.com.......'
             type='text'
             required
-            id='ListMyPropertyForm__img'>
+            id='ListMyPropertyForm__image'>
           </Input>
         </div>
         <div className='description'>

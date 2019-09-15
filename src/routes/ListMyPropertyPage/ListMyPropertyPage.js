@@ -9,7 +9,7 @@ export default class ListMyPropertyPage extends Component {
     },
   }
 
-  handleRegistrationSuccess = user => {
+  onAddPropertySuccess = () => {
     const { history } = this.props
     history.push('/properties')
   }

@@ -60,7 +60,7 @@ export default class Header extends Component {
       </li>
       <li>
         <Link
-          to='/listMyProperties'>
+          to='/listMyPropertyPage'>
           List my properties
         </Link>
       </li>
