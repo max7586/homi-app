@@ -12,17 +12,17 @@ export default class ListMyPropertyForm extends Component {
 
   handleSubmit = ev => {
     ev.preventDefault()
-    const { full_name, nick_name, user_name, password } = ev.target
+    const { address, nick_name, user_name, password } = ev.target
 
      this.setState({ error: null })
      AuthApiService.postUser({
        user_name: user_name.value,
        password: password.value,
-       full_name: full_name.value,
+       address: address.value,
        nickname: nick_name.value,
      })
        .then(user => {
-    full_name.value = ''
+    address.value = ''
     nick_name.value = ''
     user_name.value = ''
     password.value = ''
@@ -44,12 +44,12 @@ export default class ListMyPropertyForm extends Component {
         <div role='alert'>
           {error && <p className='red'>{error}</p>}
         </div>
-        <div className='Address'>
+        <div className='address'>
           <label htmlFor='ListMyPropertyForm__address'>
             Address <Required />
           </label>
           <Input
-            name='Address'
+            name='address'
             placeholder='101 street, city, state, ZIP code'
             type='text'
             required

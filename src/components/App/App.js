@@ -99,8 +99,8 @@ class App extends Component {
               path={'/properties'}
               component={PropertyListPage}
             />
-            <Route
-              exact
+            <PrivateRoute
+            
               path={'/listMyPropertyPage'}
               component={ListMyPropertyPage}
             />

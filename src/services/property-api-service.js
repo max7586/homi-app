@@ -57,6 +57,9 @@ const PropertyApiService = {
           : res.json()
       )
   }
+
+
+  
 }
 
 export default PropertyApiService

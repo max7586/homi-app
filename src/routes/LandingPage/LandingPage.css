@@ -48,7 +48,7 @@ transition: background 1.5s linear;
   width: 70%;
   grid-template-columns: repeat(2,1fr);
   margin: 0 auto;
-  padding-top: 12%;
+  padding-top: 10%;
   align-items: center;
   
 }

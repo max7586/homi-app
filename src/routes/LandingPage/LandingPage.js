@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ContactUsForm from "../../components/ContactUsForm/ContactUsForm";
 import './LandingPage.css'
 // import Footer from "./components/footer";
+import { Link } from 'react-router-dom'
 
 export default class LandingPage extends Component {
   render() {
@@ -13,9 +14,21 @@ export default class LandingPage extends Component {
         <div className="head">
             
             <div>
-            <h2 className="landingPageh2">Reimagine< br/> home</h2>
-              <p>We’ll help you find a place you’ll love.</p>
-              <div><a href="properties" className="contact">Lets see our properties </a></div>
+            <h2 className="landingPageh2">Reconceptualize< br/>your home</h2>
+              <p>We’ll help you find a place you’ll love <br/>OR <br/> Share the place you love.</p>
+              <div> 
+              <Link
+              className="contact"
+          to='/listMyPropertyPage'>
+          List my property
+        </Link>
+        <Link
+              className="contact"
+          to='/Properties'>
+          Lets see our properties 
+        </Link>
+       
+        </div>
             </div>
         </div>
        
