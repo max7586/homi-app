@@ -58,11 +58,11 @@ export default class ListMyPropertyForm extends Component {
 
         <div className='image'>
           <label htmlFor='ListMyPropertyForm__image'>
-            Image URL <Required />
+            Image URL  <Required />
           </label>
           <Input
             name='image'
-            placeholder= 'https://loremflickr.com.......'
+            placeholder= 'https://loremflickr.com/750/300/house?random'
             type='text'
             required
             id='ListMyPropertyForm__image'>
@@ -70,7 +70,7 @@ export default class ListMyPropertyForm extends Component {
         </div>
         <div className='content'>
           <label htmlFor='ListMyPropertyForm__content'>
-            Address <Required />
+            Propertiy Description <Required />
           </label>
           <Input
             name='content'
