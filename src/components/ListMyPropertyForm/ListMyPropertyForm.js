@@ -5,25 +5,26 @@ import PropertyApiService from '../../services/property-api-service'
 
 export default class ListMyPropertyForm extends Component {
   static defaultProps = {
-    onRegistrationSuccess: () => {}
+    onAddPropertySuccess: () => {}
   }
 
   state = { error: null }
 
   handleSubmit = ev => {
     ev.preventDefault()
-
+// alert("clicked")
     // title is an address 
-    // 
-    const { title, content, image } = ev.target
+    
+    const { title, content, image} = ev.target
 
      this.setState({ error: null })
-     PropertyApiService.postProperty(title.value, content.value, image.value) //create postProperty
-     .then(this.context.addProperty) //create addProperty
-     .then(() => {
+     PropertyApiService.postProperty(title.value, content.value, image.value) 
+     .then(this.context.addProperty) 
+     .then( property => {
       title.value = ''
       content.value = ''
       image.value = ''
+
       this.props.onAddPropertySuccess()
              })
          .catch(res => {
@@ -54,6 +55,7 @@ export default class ListMyPropertyForm extends Component {
             id='ListMyPropertyForm__title'>
           </Input>
         </div>
+
         <div className='image'>
           <label htmlFor='ListMyPropertyForm__image'>
             Image URL <Required />
@@ -66,29 +68,19 @@ export default class ListMyPropertyForm extends Component {
             id='ListMyPropertyForm__image'>
           </Input>
         </div>
-        <div className='description'>
-          <label htmlFor='ListMyPropertyForm__description'>
-            Description <Required />
+        <div className='content'>
+          <label htmlFor='ListMyPropertyForm__content'>
+            Address <Required />
           </label>
           <Input
-            name='description'
+            name='content'
             placeholder='Detail about house, 560 Sq-Ft 6 Bedrooms 2 Garage 5 Bathroom. FOR RENT'
-            type='description'
+            type='content'
             required
-            id='ListMyPropertyForm__description'>
+            id='ListMyPropertyForm__content'>
           </Input>
         </div>
-        <div className='nick_name'>
-          <label htmlFor='ListMyPropertyForm__nick_name'>
-            Nickname
-          </label>
-          <Input
-            name='nick_name'
-            type='text'
-            required
-            id='ListMyPropertyForm__nick_name'>
-          </Input>
-        </div>
+
         <Button type='submit'>
           Submit
         </Button>

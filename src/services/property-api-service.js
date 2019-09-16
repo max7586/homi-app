@@ -56,9 +56,27 @@ const PropertyApiService = {
           ? res.json().then(e => Promise.reject(e))
           : res.json()
       )
+  },
+
+  postProperty(title, content, image, ) {
+    return fetch(`${config.API_ENDPOINT}/properties`, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'authorization': `bearer ${TokenService.getAuthToken()}`,
+      },
+      body: JSON.stringify({
+        title,
+        content,
+        image,
+      }),
+    })
+      .then(res =>
+        (!res.ok)
+          ? res.json().then(e => Promise.reject(e))
+          : res.json()
+      )
   }
-
-
   
 }
 

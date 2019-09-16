@@ -9,9 +9,11 @@ export default class ListMyPropertyPage extends Component {
     },
   }
 
-  onAddPropertySuccess = () => {
+  handleAddPropertySuccess = property => {
     const { history } = this.props
+
     history.push('/properties')
+
   }
 
   render() {
@@ -20,7 +22,7 @@ export default class ListMyPropertyPage extends Component {
         <h2>Add Property </h2>
         <p>Selling or renting your property is NOT complicated anymore</p>
         <ListMyPropertyForm
-          onRegistrationSuccess={this.handleRegistrationSuccess}
+        onAddPropertySuccess={this.handleAddPropertySuccess}
         />
       </Section>
     )

@@ -15,6 +15,7 @@ const PropertyContext = React.createContext({
   clearProperty: () => {},
   setReviews: () => {},
   addReview: () => {},
+  addProperty: () => {},
 })
 
 export default PropertyContext
@@ -54,6 +55,14 @@ export class PropertyProvider extends Component {
     ])
   }
 
+  addProperty = property => {
+    this.setProperty([
+      ...this.state.properties,
+      property
+    ])
+  }
+
+
   render() {
     const value = {
       property: this.state.property,
@@ -65,6 +74,7 @@ export class PropertyProvider extends Component {
       setReviews: this.setReviews,
       clearProperty: this.clearProperty,
       addReview: this.addReview,
+      addProperty: this.addProperty
     }
     return (
       <PropertyContext.Provider value={value}>
