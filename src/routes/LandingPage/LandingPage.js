@@ -71,12 +71,12 @@ export default class LandingPage extends Component {
 
         
         <div className="gallery">
-         <div className="gallery-item-one"></div>
-         <div className="gallery-item-two"></div>
-         <div className="gallery-item-three"></div>
-         <div className="gallery-item-four"></div>
-         <div className="gallery-item-five"></div>
-         <div className="gallery-item-six"></div>
+         <div className="gallery-item-one radious"></div>
+         <div className="gallery-item-two radious"></div>
+         <div className="gallery-item-three radious"></div>
+         <div className="gallery-item-four radious"></div>
+         <div className="gallery-item-five radious"></div>
+         <div className="gallery-item-six radious"></div>
          
         </div>
 
