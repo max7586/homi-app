@@ -47,20 +47,36 @@ export default class LandingPage extends Component {
 
         <div>
              <div className="services">
+
                 <div className="service-one">
+              
                 <p className="service-icon"><i className="fas fa-door-open"></i></p>
-                <p className="service-title">Buy a home</p>
+                <Link
+                className="service-title"
+                to='/Properties'>
+                Buy a home
+              </Link>
                 <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="service-two">
                 <p className="service-icon"><i className="fas fa-money-bill-wave"></i></p>
-                <p className="service-title">Sell a home</p>
+                <Link
+                className="service-title"
+                to='/listMyPropertyPage'>
+                Sell a home
+              </Link>
+
                 <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             
                 </div>
                 <div className="service-three">
                 <p className="service-icon"><i className="fas fa-retweet"></i></p>
-                <p className="service-title">rent a home</p>
+                <Link
+                className="service-title"
+                to='/listMyPropertyPage'>
+                Rent a home
+              </Link>
+
                 <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua frefrfr erg re greg.</p>
               
           </div>

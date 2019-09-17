@@ -17,6 +17,33 @@
 .Header a {
   color: #444;
   text-decoration: none;
+  
+}
+.App__header {
+
+  /* letter-spacing: 7px; */
+/* margin-bottom: -114px; */
+/* background: white; */
+/* position: relative; */
+/* padding: 17px; */
+animation: key 6s 1;
+
+
+}
+@keyframes key {
+  0% {
+    /* color: black; */
+    /* letter-spacing: 25px; */
+    margin-bottom: -70px;
+  }
+  50%{
+    /* letter-spacing: 25px; */
+    margin-bottom: -70px;
+  }
+  85%{
+    /* letter-spacing: 7px; */
+    /* margin-bottom: -70px;   */
+  }
 }
 
 .Header__tagline--wide {

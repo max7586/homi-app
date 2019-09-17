@@ -52,7 +52,7 @@ export default class Header extends Component {
       
 <div className='Header__not-logged-in'>
       <ul className='link__ul'>
-      <li>
+      <li className="item" id="profile">
         <Link
           to='/properties'>
           Properties
@@ -86,7 +86,7 @@ export default class Header extends Component {
   render() {
     return <>
       <nav className='Header'>
-        <h1>
+        <h1 className="logo">
           <Link to='/'>
             <i className="fas fa-home"></i>
             

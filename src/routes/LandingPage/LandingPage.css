@@ -120,7 +120,7 @@ margin: 7% auto;
 }
 
 .hero__btn:hover{
-  padding: 20px;
+  padding: 20px ;
   background: rgb(44, 44, 46);
 
 }
@@ -271,6 +271,22 @@ div.services {
   filter: grayscale(0%);
   border-bottom: 2px solid rgb(0, 99, 248);
 }
+
+.service-title{
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  /* background: rgba(62, 62, 65, 0.838); */
+  display: block;
+  color: #111;
+}
+
+.service-title:hover{
+    background: #0D63F8;
+    color:white;
+}
+
 .services p.service-title{
   font-size: 3.1rem;
   padding: 0;
@@ -446,6 +462,7 @@ align-items: center;
   .gallery{
     height: 420px;
   }
+  
   .heroh2 {
 
     letter-spacing: 7px;
