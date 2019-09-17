@@ -8,7 +8,7 @@
   box-shadow: 0px 11px 21px -8px rgba(0, 0, 0, 0.5);
   margin-bottom: 40px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 50px 0px 50px 0px;
 }
 
 .PropertyListItem:hover {
@@ -23,7 +23,7 @@
 .PropertyListItem__image {
   height: 250px;
   /* width: 275px; */
-  border-radius: 10px 10px 0 0;
+  border-radius: 50px 0px 0 0;
   background-size: cover;
   background-position: 50% 50%;
 }

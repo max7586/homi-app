@@ -10,7 +10,7 @@
 
 }
 .footer {
-  background: linear-gradient(to bottom, #87878a, #f0f1fa, #87878a);
+  background: linear-gradient(to bottom, #87878a);
   /* color: #91a3df; */
   /* padding: 20px; */
   /* margin-top: 80px; */
@@ -42,5 +42,6 @@ border-radius: 7px;
 
 .footer ul li a {
   color: #eee;
+  color: black;
 }
 

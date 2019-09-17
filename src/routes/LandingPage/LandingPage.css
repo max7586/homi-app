@@ -8,6 +8,7 @@ body {
 }
 body * {
   transition: all 0.300s ease-in-out;
+  border-radius: 7px;
 }
 
 .container { 
@@ -41,24 +42,30 @@ opacity: 1.0;
 transition: background 1.5s linear;
 }
 
-.hero div.head {
+.landingPageh2 {
+  font-size: 2.4rem;
+  font-weight: 1000;
+
+}
+
+.hero section.head {
   position: relative;
   z-index: 2;
   display: grid;
-  width: 70%;
-  grid-template-columns: repeat(2,1fr);
+  /* width: 70%; */
+  /* grid-template-columns: repeat(2,1fr); */
   margin: 0 auto;
   padding-top: 10%;
   align-items: center;
   
 }
 
-.hero div.head  {
+.hero section.head  {
   color: #222;
 /* background-color: rgb(241, 224, 224); */
 /* Fallback color */
 background-color: rgba(255, 255, 255, 0.582);
-/* text-align: center; */
+text-align: center;
 /* Black w/opacity/see-through */
 }
 
@@ -74,22 +81,26 @@ background-color: rgba(255, 255, 255, 0.582);
   border-right: 2px solid #111;
 } */
 
-.hero div.head p {
+.hero section.head p {
   /* padding-left: 30px; */
   color:blue;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  font-weight: 1000;
   /* text-align: center; */
 }
 
+.hero__btn_div {
+  margin: 0px auto;
+}
 
-.contact {
+.hero__btn {
   
  background: rgb(0, 99, 248);
  display: block;
  color: #fff;
  font-weight: bold;
- width: 50%;
- margin: 0 auto;
+ width: 40%;
+margin: 7% auto;
  text-align: center;
  padding: 12px;
  border-radius: 10px;
@@ -97,7 +108,7 @@ background-color: rgba(255, 255, 255, 0.582);
  -webkit-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
  -moz-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
  box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
- margin: 0 auto 15% 0;
+ /* margin: 0 auto 15% 0; */
 }
 
 .main {
@@ -115,11 +126,14 @@ background-color: rgba(255, 255, 255, 0.582);
   display: grid;
   grid-template-columns: 2fr 3fr;
   align-items: center;
+  border-radius: 7px;
 
 }
 
+
+
 .main section h2 {
-  font-size: 4.3rem;
+  font-size: 4.0rem;
   color: #ddd;
   text-transform: uppercase;
  line-height: 4.2rem; 
@@ -425,6 +439,7 @@ list-style: none;
     grid-template-columns: 1fr;
     
   }
+  
   .main section div p {
     padding: 0px 90px;
   }
@@ -483,6 +498,9 @@ list-style: none;
     grid-template-columns: 1fr;
     
   }
+
+  
+
   .main section div p {
     padding: 0px 10px;
   }

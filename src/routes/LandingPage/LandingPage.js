@@ -9,28 +9,32 @@ export default class LandingPage extends Component {
   render() {
     return (
       <section className="container">
+      
 <section className="hero">
 
-        <div className="head">
-            
+        <section className="head">
+      
+        <h2 className="landingPageh2">Reconceptualize< br/>your home</h2>
+        
+
             <div>
-            <h2 className="landingPageh2">Reconceptualize< br/>your home</h2>
+            
               <p>We’ll help you find a place you’ll love <br/>OR <br/> Share the place you love.</p>
-              <div> 
+              <div className='hero__btn__div'> 
               <Link
-              className="contact"
+              className="hero__btn"
           to='/listMyPropertyPage'>
           List my property
         </Link>
         <Link
-              className="contact"
+              className="hero__btn"
           to='/Properties'>
           Lets see our properties 
         </Link>
        
         </div>
             </div>
-        </div>
+        </section>
        
       </section >
       <section className="main">

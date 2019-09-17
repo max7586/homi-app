@@ -1,5 +1,6 @@
-/* .PropertyListPage {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-} */
+.PropertyListPage {
+  border-radius: 50px 0px 50px 0px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+}
