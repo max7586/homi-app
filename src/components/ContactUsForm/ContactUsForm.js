@@ -77,7 +77,7 @@ class ContactUsForm extends Component {
   
 
     return (
-        <form>
+        <form className="contactme__form">
           {/* I am just sending a basic error message */}
               {this.state.formError &&
                 <p className="error">

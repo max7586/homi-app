@@ -51,6 +51,7 @@ export default class Header extends Component {
     return (
       
 <div className='Header__not-logged-in'>
+
       <ul className='link__ul'>
       <li className="item" id="profile">
         <Link

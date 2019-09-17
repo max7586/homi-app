@@ -34,15 +34,16 @@ animation: key 6s 1;
   0% {
     /* color: black; */
     /* letter-spacing: 25px; */
-    margin-bottom: -70px;
+    margin-bottom: -75px;
   }
   50%{
     /* letter-spacing: 25px; */
-    margin-bottom: -70px;
+    margin-bottom: -75px;
   }
   85%{
     /* letter-spacing: 7px; */
     /* margin-bottom: -70px;   */
+    
   }
 }
 
