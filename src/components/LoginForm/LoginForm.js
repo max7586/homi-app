@@ -74,7 +74,7 @@ export default class LoginForm extends Component {
             id='LoginForm__password'>
           </Input>
         </div>
-        <Button type='submit'>
+        <Button style={{marginBottom:70}} type='submit'>
           Login
         </Button>
       </form>

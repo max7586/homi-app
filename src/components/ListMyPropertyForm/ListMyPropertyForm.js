@@ -81,7 +81,7 @@ export default class ListMyPropertyForm extends Component {
           </Input>
         </div>
 
-        <Button type='submit'>
+        <Button  style={{marginBottom:70}} type='submit'>
           Submit
         </Button>
       </form>

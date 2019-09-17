@@ -20,8 +20,7 @@ export default class LoginPage extends Component {
   render() {
     return (
       <Section className='LoginPage'>
-        <div className="login__div">
-        </div>
+      <h2 className='LoginPage__header'>Login </h2>
         <LoginForm
           onLoginSuccess={this.handleLoginSuccess}
         />
