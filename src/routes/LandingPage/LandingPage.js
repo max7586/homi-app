@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
 
         <section className="head">
       
-        <h2 className="landingPageh2">Reconceptualize< br/>your home</h2>
+        <h2 className="heroh2">Reconceptualize< br/>your home</h2>
         
 
             <div>
