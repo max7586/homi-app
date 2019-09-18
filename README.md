@@ -11,7 +11,7 @@
 - [App Description](#app-description)
 - [Live Demo](#live-demo)
 - [Server-site repo](#server-site-repo)
-- [As a user](#as-a-user)
+- [User Story](#user-story)
 - [Site Screenshots](#site-screenshots)
 - [Mobile support](#mobile-support)
 - [Built with](#build-with)
@@ -35,54 +35,55 @@
 
 ## Live Demo
 
-> Here is a working live demo : Coming soon
+> [Live Page](https://homi-client.ahmedmax7586.now.sh)
 
 ## Server-site repo
 
 > [homi-server](https://github.com/max7586/homi-server)
 
 
-## As a user
+## User Story
 
-* I can add my property for rent.
+* I can register.
 
-* I can add my property for sell.
+* I can login.
 
-* I can buy property from properties list.
+* I can see all the list of properties.
 
-* I can search houses by address,city or zip code from properties list.
+* I can click on a property to display the "detailed" view.
 
-* I can see all the list of properties for sale and rental houses.
+* I can post reviews on property.
 
-* I can click on a property to display the "detailed" view
+* I can view all the reviews and the offer for the property.
 
-* I can remove properties from my property list
+* I can list my properrty.
 
-* I receive appropriate feedback when I cannot submit a for-rent or for-sell form
+* I receive appropriate feedback when I cannot submit a list-my-property form
 
-  * Check all validations in the API documentation (e.g. street-address, city, zip-code, title, type url field required)
-* I can select from a dropdown a "minimum price" to filter the list by all properties priced at or above the chosen selection
+  * Check all validations in the API documentation (e.g. Address, city, zip-code, title, type url field required)
 
-* I can edit the pricing and description of a property in my list.
 
 ## Site Screenshots
 
 - landing page that explain what the app dose and how to get started(screenshot-coming-soon)
   ![](https://max7586.github.io/homi/images/demo/Site1.JPG)
-- Buy page where the users can see all the list of homes for sale.(screenshot-coming-soon)
+- Properties page where the users can see all the list of property.(screenshot-coming-soon)
   ![](https://max7586.github.io/homi/images/demo/Site2.JPG)
-- Sell page where the users complete a form and upload documents to sell their home.(screenshot-coming-soon)
+- Review page where the users can post their reviews and post an offer for this property.(screenshot-coming-soon)
+  ![](https://max7586.github.io/homi/images/demo/Site2.JPG)
+- List-my-property page where the users complete a form and upload documents to sell their property.(screenshot-coming-soon)
   ![](https://max7586.github.io/homi/images/demo/Site3.JPG)
-- Rent page where the users can see all rental listings and users can also list their home for rental.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site4.JPG)
-- Contact-Us page where the users can see contact information.(screenshot-coming-soon)
+- Register page where the users can register.(screenshot-coming-soon)
   ![](https://max7586.github.io/homi/images/demo/Site5.JPG)
+- Login page where the users can login to list their property or write any reviews.(screenshot-coming-soon)
+  ![](https://max7586.github.io/homi/images/demo/Site4.JPG)
+
 
 ## Mobile support
 
 > The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](https://max7586.github.io/homi/images/demo/mobile.png)
+![](https://max7586.github.io/homi/images/demo/responsive.png)
 
 ## Built with
 
