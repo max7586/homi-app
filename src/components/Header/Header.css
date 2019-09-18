@@ -61,7 +61,7 @@
   color: #fff;
 }
 .logo {
-  line-height: 40px;
+  /* line-height: 30px; */
   float: left;
   text-transform: uppercase;
   /* width:50px; */
