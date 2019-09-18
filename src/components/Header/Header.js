@@ -53,12 +53,8 @@ export default class Header extends Component {
     return <>
       <nav className='header'>
         <h1 className="logo">
-          <Link 
-          
-          to='/'>
-          <img className='logo' src="https://max7586.github.io/homi-app/images/4P9H5z.png"  alt="logo" ></img>
-            
-
+          <Link to='/'>
+            <i className="fas fa-home"></i>Homi
           </Link>
         </h1>
 

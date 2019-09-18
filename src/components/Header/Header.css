@@ -61,10 +61,10 @@
   color: #fff;
 }
 .logo {
-  /* line-height: 40px; */
+  line-height: 40px;
   float: left;
   text-transform: uppercase;
-  width:50px;
+  /* width:50px; */
 }
 
 .menu{
