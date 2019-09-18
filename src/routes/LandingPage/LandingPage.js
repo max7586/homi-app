@@ -84,8 +84,9 @@ export default class LandingPage extends Component {
 
             </div>
 
-
-        
+            <section>
+            <h2 className="landingPageh2">Our Latest Properties </h2>
+      
         <div className="gallery">
          <div className="gallery-item-one radious"></div>
          <div className="gallery-item-two radious"></div>
@@ -95,6 +96,7 @@ export default class LandingPage extends Component {
          <div className="gallery-item-six radious"></div>
          
         </div>
+        </section>
 
         <section>
             <h2 className="landingPageh2">Our Agent</h2>
