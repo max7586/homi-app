@@ -6,6 +6,8 @@ import IdleService from '../../services/idle-service'
 import './Header.css'
 
 export default class Header extends Component {
+
+
   handleLogoutClick = () => {
     TokenService.clearAuthToken();
         /* when logging out, clear the callbacks to the refresh api and idle auto logout */
@@ -16,88 +18,82 @@ export default class Header extends Component {
   renderLogoutLink() {
     return (
 
-      
-      <div className='Header__logged-in'>
-<ul className='link__ul'>
-      <li>
-        <Link
-          to='/properties'>
-          Properties
-        </Link>
-      </li>
-      <li>
-        <Link
-          to = '/ListMyPropertyPage' >
-          List my property
-        </Link>
-      </li>
 
-      <li>
         <Link
           onClick={this.handleLogoutClick}
+          className="btn btn4"
           to='/'>
           Logout
         </Link>
-      </li>
-      </ul>
-      
-      
-        
-      </div>
+
     )
   }
 
   renderLoginLink() {
     return (
       
-<div className='Header__not-logged-in'>
-
-      <ul className='link__ul'>
-      <li className="item" id="profile">
+<>
         <Link
-          to='/properties'>
-          Properties
-        </Link>
-      </li>
-      <li>
-        <Link
-          to='/listMyPropertyPage'>
-          List my properties
-        </Link>
-      </li>
-      <li>
-        <Link
+        className="btn btn4"
           to='/login'>
           Log in
         </Link>
-      </li>
-      <li>
+
           <Link
+          className="btn btn4"
           to='/register'>
           Register
         </Link>
-      </li>
-      </ul>
 
-</div>
-      
+      </>
     )
   }
 
   render() {
     return <>
-      <nav className='Header'>
+      <nav className='header'>
         <h1 className="logo">
-          <Link to='/'>
-            <i className="fas fa-home"></i>
+          <Link 
+          
+          to='/'>
+          <img className='logo' src="https://max7586.github.io/homi-app/images/4P9H5z.png"  alt="logo" ></img>
             
-            Homi
+
           </Link>
         </h1>
 
-        {TokenService.hasAuthToken()
-          ? this.renderLogoutLink()
-          : this.renderLoginLink()}
+        <input type="checkbox" id="chk"></input>
+        <label htmlFor="chk" className="show-menu-btn">
+          <i className="fas fa-ellipsis-h"></i>
+        </label>
+    
+        <ul className="menu">
+
+        <Link to='/' className="btn btn2">
+        Home
+      </Link>
+          
+          <Link to='/properties' className="btn btn2" >
+          Properties 
+        </Link>
+        <Link to='/listMyPropertyPage' className="btn btn2" >
+        List My Property
+      </Link>
+
+
+          
+          {TokenService.hasAuthToken()
+            ? this.renderLogoutLink()
+            : this.renderLoginLink()}
+          <label htmlFor="chk" className="hide-menu-btn">
+            <i className="fas fa-times"></i>
+          </label>
+        </ul>
+
+
+
+
+          
       </nav>
 
 

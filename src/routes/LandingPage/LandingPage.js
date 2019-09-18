@@ -38,8 +38,8 @@ export default class LandingPage extends Component {
        
       </section >
       <section className="main">
-        <section className="intro">
-            <h2 className="landingPageh2">About Us</h2>
+        <section className="intro" >
+            <h2 className="landingPageh2" id="intro">About Us</h2>
             <div>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
             </div>
@@ -52,7 +52,7 @@ export default class LandingPage extends Component {
               
                 <p className="service-icon"><i className="fas fa-door-open"></i></p>
                 <Link
-                className="service-title"
+                className="service-title "
                 to='/Properties'>
                 Buy a home
               </Link>
