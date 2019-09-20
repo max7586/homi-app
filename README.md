@@ -1,7 +1,7 @@
   <!-- # ![](https://max7586.github.io/homi-app/images/4v35Y2.png) -->
 
 <!--   <img src="images/4v35Y2.png" width="100" > -->
-    # ![WebApp](https://max7586.github.io/homi-client/images/demo/landingPage.png)
+# ![WebApp](https://max7586.github.io/homi-client/images/demo/landingPage.png)
 
 # Homi -- web Application
 
