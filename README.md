@@ -10,7 +10,7 @@
 
 - [App Description](#app-description)
 - [Live Demo](#live-demo)
-- [Server-site repo](#server-site-repo)
+- [Server-site repo](https://github.com/max7586/homi-server)
 - [User Story](#user-story)
 - [Site Screenshots](#site-screenshots)
 - [Mobile support](#mobile-support)
@@ -36,10 +36,6 @@
 ## Live Demo
 
 > [Live Page](https://homi-client.ahmedmax7586.now.sh)
-
-## Server-site repo
-
-> [homi-server](https://github.com/max7586/homi-server)
 
 
 ## User Story
