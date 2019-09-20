@@ -19,7 +19,7 @@
 - [Development](#development)
 
 
-  <!-- # ![WebApp](https://max7586.github.io/homi/images/demo/landingPage.png) -->
+  # ![WebApp](https://max7586.github.io/homi-client/images/demo/landingPage.png)
 
 ## App Description
 
@@ -65,25 +65,25 @@
 
 ## Site Screenshots
 
-- landing page that explain what the app dose and how to get started(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/landingPage.png)
-- Properties page where the users can see all the list of property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/properties.png)
-- Review page where the users can post their reviews and post an offer for this property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/reviewPage.png)
-- List-my-property page where the users complete a form and upload documents to sell their property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/listMyPropertyPage.png)
-- Register page where the users can register.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/registerPage.png)
-- Login page where the users can login to list their property or write any reviews.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/loginPage.png)
+- landing page that explain what the app dose and how to get started.
+  ![](https://max7586.github.io/homi-client/images/demo/landingPage.png)
+- Properties page where the users can see all the list of property.
+  ![](https://max7586.github.io/homi-client/images/demo/properties.png)
+- Review page where the users can post their reviews and post an offer for this property.
+  ![](https://max7586.github.io/homi-client/images/demo/reviewPage.png)
+- List-my-property page where the users complete a form and upload documents to sell their property.
+  ![](https://max7586.github.io/homi-client/images/demo/listMyPropertyPage.png)
+- Register page where the users can register.
+  ![](https://max7586.github.io/homi-client/images/demo/registerPage.png)
+- Login page where the users can login to list their property or write any reviews.
+  ![](https://max7586.github.io/homi-client/images/demo/loginPage.png)
 
 
 ## Mobile support
 
 > The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](https://max7586.github.io/homi/images/demo/responsive.png)
+![](https://max7586.github.io/homi-client/images/demo/responsive.png)
 
 ## Built with
 
