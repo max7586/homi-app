@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import { Section } from '../../components/Utils/Utils'
 import ContactUsForm from "../../components/ContactUsForm/ContactUsForm";
+// import Header from '../../components/Header/Header'
 import './LandingPage.css'
 // import Footer from "./components/footer";
 import { Link } from 'react-router-dom'
@@ -111,6 +112,7 @@ export default class LandingPage extends Component {
         <section>
             <h2 className="landingPageh2" id="contactUs">Contact Us</h2>
             <ContactUsForm />
+
           
         </section>
 

@@ -66,10 +66,13 @@
   text-transform: uppercase;
   /* width:50px; */
 }
-
+.fa-ellipsis-h{
+  color:grey;
+}
 .menu{
   float: right;
   line-height: 40px;
+  /* color:black; */
 }
 .menu a{
   /* color: black; */
@@ -104,7 +107,7 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:750px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }

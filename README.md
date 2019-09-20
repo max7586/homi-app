@@ -19,7 +19,7 @@
 - [Development](#development)
 
 
-  <!-- # ![WebApp](https://max7586.github.io/homi/images/demo/demo_landing.JPG) -->
+  <!-- # ![WebApp](https://max7586.github.io/homi/images/demo/landingPage.png) -->
 
 ## App Description
 
@@ -66,17 +66,17 @@
 ## Site Screenshots
 
 - landing page that explain what the app dose and how to get started(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site1.JPG)
+  ![](https://max7586.github.io/homi/images/demo/landingPage.png)
 - Properties page where the users can see all the list of property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site2.JPG)
+  ![](https://max7586.github.io/homi/images/demo/properties.png)
 - Review page where the users can post their reviews and post an offer for this property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site2.JPG)
+  ![](https://max7586.github.io/homi/images/demo/reviewPage.png)
 - List-my-property page where the users complete a form and upload documents to sell their property.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site3.JPG)
+  ![](https://max7586.github.io/homi/images/demo/listMyPropertyPage.png)
 - Register page where the users can register.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site5.JPG)
+  ![](https://max7586.github.io/homi/images/demo/registerPage.png)
 - Login page where the users can login to list their property or write any reviews.(screenshot-coming-soon)
-  ![](https://max7586.github.io/homi/images/demo/Site4.JPG)
+  ![](https://max7586.github.io/homi/images/demo/loginPage.png)
 
 
 ## Mobile support

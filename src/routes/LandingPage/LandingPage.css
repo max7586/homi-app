@@ -148,7 +148,7 @@ margin: 7% auto;
 
 .main section {
   width: 70%;
-  padding: 90px 0;
+  padding: 90px 0px 0px 0px;
   margin: 50px auto 150px auto;
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -402,7 +402,7 @@ align-items: center;
     
     .main section {
       width: 90%;
-      padding: 90px 0;
+      padding: 90px 0px 0px 0px;
       margin: 0px auto 50px auto;
       display: grid;
       grid-template-columns: 1fr;
@@ -444,7 +444,7 @@ align-items: center;
 
   .main section {
     width: 90%;
-    padding: 90px 0;
+    padding: 90px 0px 0px 0px;
     margin: 0px auto 50px auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -517,7 +517,7 @@ list-style: none;
 
   .main section {
     width: 90%;
-    padding: 90px 0;
+    padding: 90px 0px 0px  0px;
     margin: 0px auto 50px auto;
     display: grid;
     grid-template-columns: 1fr;

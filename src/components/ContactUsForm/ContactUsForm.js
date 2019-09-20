@@ -87,7 +87,7 @@ class ContactUsForm extends Component {
               <p>Fill in the next form to send us a message</p>
               <div>
                 <label htmlFor="name">Name</label>
-                <input type="text" name="name" placeholder="Your name here please" onChange={this.getName} />
+                <input className='contactme__form__input' type="text" name="name" placeholder="Your name here please" onChange={this.getName} />
               </div>
               <div>
                 <label htmlFor="email">Email</label>
