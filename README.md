@@ -1,6 +1,6 @@
-  <!-- # ![](https://max7586.github.io/homi-app/images/4P9H5z.png) -->
+  <!-- # ![](https://max7586.github.io/homi-app/images/4v35Y2.png) -->
 
-  <img src="images/4P9H5z.png" width="100" >
+  <img src="images/4v35Y2.png" width="100" >
 
 # Homi -- web Application
 

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyListItem component renders the UI as expected 1`] = `
+<a
+  className="PropertyListItem"
+  href="/property/2"
+  onClick={[Function]}
+>
+  <div
+    className="PropertyListItem__image"
+    style={
+      Object {
+        "backgroundImage": "url(undefined)",
+      }
+    }
+  />
+  <div
+    className="PropertyListItem__details"
+  >
+    <div
+      className="PropertyListItem__text"
+    >
+      <h2
+        className="PropertyListItem__heading"
+      >
+        test
+      </h2>
+      <p
+        className="PropertyListItem__description"
+      >
+        
+      </p>
+      <p
+        className="PropertyListItem__userId"
+      />
+    </div>
+    <div
+      className="PropertyListItem__reviews"
+    >
+      <span
+        className="PropertyStarRating"
+      />
+      <span
+        id="PropertyListItem__review-count"
+      >
+        based on undefined reviews
+      </span>
+    </div>
+  </div>
+</a>
+`;

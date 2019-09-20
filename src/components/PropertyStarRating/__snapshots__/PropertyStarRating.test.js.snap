@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyStarRating component renders correctly when there are no  1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders correctly when there are no items 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders correctly when there are no props 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders correctly when there are props 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders the UI as expected 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders the UI as expected with no rating 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;
+
+exports[`PropertyStarRating component renders the UI as expected with no unreads 1`] = `
+<span
+  className="PropertyStarRating"
+/>
+`;

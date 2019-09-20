@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component  renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App__header"
+  >
+    <nav
+      className="header"
+    >
+      <h1
+        className="logo"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-home"
+          />
+          Homi
+        </a>
+      </h1>
+      <input
+        id="chk"
+        type="checkbox"
+      />
+      <label
+        className="show-menu-btn"
+        htmlFor="chk"
+      >
+        <i
+          className="fas fa-ellipsis-h"
+        />
+      </label>
+      <ul
+        className="menu"
+      >
+        <a
+          className="btn btn2"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="btn btn2"
+          href="/properties"
+          onClick={[Function]}
+        >
+          Properties
+        </a>
+        <a
+          className="btn btn2"
+          href="/listMyPropertyPage"
+          onClick={[Function]}
+        >
+          List My Property
+        </a>
+        <a
+          className="btn btn4"
+          href="/login"
+          onClick={[Function]}
+        >
+          Log in
+        </a>
+        <a
+          className="btn btn4"
+          href="/register"
+          onClick={[Function]}
+        >
+          Register
+        </a>
+        <label
+          className="hide-menu-btn"
+          htmlFor="chk"
+        >
+          <i
+            className="fas fa-times"
+          />
+        </label>
+      </ul>
+    </nav>
+  </header>
+  <main
+    className="App__main"
+  >
+    <section
+      className="container"
+    >
+      <section
+        className="hero"
+      >
+        <section
+          className="head"
+        >
+          <h2
+            className="heroh2"
+          >
+            Reconceptualize
+            <br />
+            your home
+          </h2>
+          <div>
+            <p>
+              We’ll help you find a place you’ll love 
+              <br />
+              OR 
+              <br />
+               Share the place you love.
+            </p>
+            <div
+              className="hero__btn__div"
+            >
+              <a
+                className="hero__btn"
+                href="/listMyPropertyPage"
+                onClick={[Function]}
+              >
+                List my property
+              </a>
+              <a
+                className="hero__btn"
+                href="/Properties"
+                onClick={[Function]}
+              >
+                Lets see our properties
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section
+        className="main"
+      >
+        <section
+          className="intro"
+        >
+          <h2
+            className="landingPageh2"
+            id="intro"
+          >
+            About Us
+          </h2>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+            </p>
+          </div>
+        </section>
+        <div>
+          <div
+            className="services"
+          >
+            <div
+              className="service-one"
+            >
+              <p
+                className="service-icon"
+              >
+                <i
+                  className="fas fa-door-open"
+                />
+              </p>
+              <a
+                className="service-title "
+                href="/Properties"
+                onClick={[Function]}
+              >
+                Buy a home
+              </a>
+              <p
+                className="service-des"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div
+              className="service-two"
+            >
+              <p
+                className="service-icon"
+              >
+                <i
+                  className="fas fa-money-bill-wave"
+                />
+              </p>
+              <a
+                className="service-title"
+                href="/listMyPropertyPage"
+                onClick={[Function]}
+              >
+                Sell a home
+              </a>
+              <p
+                className="service-des"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div
+              className="service-three"
+            >
+              <p
+                className="service-icon"
+              >
+                <i
+                  className="fas fa-retweet"
+                />
+              </p>
+              <a
+                className="service-title"
+                href="/listMyPropertyPage"
+                onClick={[Function]}
+              >
+                Rent a home
+              </a>
+              <p
+                className="service-des"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua frefrfr erg re greg.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section>
+          <h2
+            className="landingPageh2"
+          >
+            Our Latest Properties 
+          </h2>
+          <div
+            className="gallery"
+          >
+            <div
+              className="gallery-item-one radious"
+            />
+            <div
+              className="gallery-item-two radious"
+            />
+            <div
+              className="gallery-item-three radious"
+            />
+            <div
+              className="gallery-item-four radious"
+            />
+            <div
+              className="gallery-item-five radious"
+            />
+            <div
+              className="gallery-item-six radious"
+            />
+          </div>
+        </section>
+        <section>
+          <h2
+            className="landingPageh2"
+          >
+            Our Agent
+          </h2>
+          <div>
+            <p
+              className="ourAgent__icon"
+            >
+              <i
+                className="far fa-user-circle"
+              />
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. 
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2
+            className="landingPageh2"
+            id="contactUs"
+          >
+            Contact Us
+          </h2>
+          <form
+            className="contactme__form"
+          >
+            <p>
+              Fill in the next form to send us a message
+            </p>
+            <div>
+              <label
+                htmlFor="name"
+              >
+                Name
+              </label>
+              <input
+                name="name"
+                onChange={[Function]}
+                placeholder="Your name here please"
+                type="text"
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input
+                name="email"
+                onChange={[Function]}
+                placeholder="We will contact you after reviewing your message"
+                type="email"
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="name"
+              >
+                Message
+              </label>
+              <textarea
+                maxLength="450"
+                onChange={[Function]}
+              />
+            </div>
+            <div>
+              <p>
+                We will answer as soon as possible
+              </p>
+              <input
+                name="submit"
+                onClick={[Function]}
+                type="submit"
+                value="Send"
+              />
+            </div>
+          </form>
+        </section>
+      </section>
+    </section>
+  </main>
+  <footer
+    className="App__footer"
+  >
+    <div
+      className="footer"
+    >
+      <p>
+        homi real estate | 2019 Ahmed @ am.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="http://www.facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-facebook"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.instagram.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-instagram"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

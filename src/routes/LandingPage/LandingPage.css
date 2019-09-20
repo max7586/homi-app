@@ -8,7 +8,7 @@ body {
 }
 body * {
   transition: all 0.300s ease-in-out;
-  border-radius: 7px;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .container { 
@@ -139,7 +139,7 @@ margin: 7% auto;
 }
 
 .main {
- 
+ border-radius: 0px;
   position: relative;
   z-index: 3;
  overflow: hidden;

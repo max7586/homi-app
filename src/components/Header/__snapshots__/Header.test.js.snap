@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders the UI as expected 1`] = `
+<nav
+  className="header"
+>
+  <h1
+    className="logo"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-home"
+      />
+      Homi
+    </a>
+  </h1>
+  <input
+    id="chk"
+    type="checkbox"
+  />
+  <label
+    className="show-menu-btn"
+    htmlFor="chk"
+  >
+    <i
+      className="fas fa-ellipsis-h"
+    />
+  </label>
+  <ul
+    className="menu"
+  >
+    <a
+      className="btn btn2"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="btn btn2"
+      href="/properties"
+      onClick={[Function]}
+    >
+      Properties
+    </a>
+    <a
+      className="btn btn2"
+      href="/listMyPropertyPage"
+      onClick={[Function]}
+    >
+      List My Property
+    </a>
+    <a
+      className="btn btn4"
+      href="/login"
+      onClick={[Function]}
+    >
+      Log in
+    </a>
+    <a
+      className="btn btn4"
+      href="/register"
+      onClick={[Function]}
+    >
+      Register
+    </a>
+    <label
+      className="hide-menu-btn"
+      htmlFor="chk"
+    >
+      <i
+        className="fas fa-times"
+      />
+    </label>
+  </ul>
+</nav>
+`;

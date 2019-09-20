@@ -19,7 +19,7 @@ import {
   faListUl,
   faPenAlt,
   faQuoteLeft,
-  faStar as fasStar,
+  farStar as fasStar,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactUsForm component renders the UI as expected 1`] = `
+<form
+  className="contactme__form"
+>
+  <p>
+    Fill in the next form to send us a message
+  </p>
+  <div>
+    <label
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      name="name"
+      onChange={[Function]}
+      placeholder="Your name here please"
+      type="text"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      name="email"
+      onChange={[Function]}
+      placeholder="We will contact you after reviewing your message"
+      type="email"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="name"
+    >
+      Message
+    </label>
+    <textarea
+      maxLength="450"
+      onChange={[Function]}
+    />
+  </div>
+  <div>
+    <p>
+      We will answer as soon as possible
+    </p>
+    <input
+      name="submit"
+      onClick={[Function]}
+      type="submit"
+      value="Send"
+    />
+  </div>
+</form>
+`;

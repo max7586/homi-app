@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListMyPropertyForm component renders the UI as expected 1`] = `
+<form
+  className="ListMyPropertyForm"
+  onSubmit={[Function]}
+>
+  <div
+    role="alert"
+  />
+  <div
+    className="title"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__title"
+    >
+      Address 
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__title"
+      name="title"
+      placeholder="101 street, city, state, ZIP code"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="image"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__image"
+    >
+      Image URL  
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__image"
+      name="image"
+      placeholder="https://loremflickr.com/750/300/house?random"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__content"
+    >
+      Propertiy Description 
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__content"
+      name="content"
+      placeholder="Detail about house, 560 Sq-Ft 6 Bedrooms 2 Garage 5 Bathroom. FOR RENT"
+      required={true}
+      type="content"
+    />
+  </div>
+  <button
+    className="Button ListMyPropertyForm__submit"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`ListMyPropertyForm component renders the UI as expected with no props 1`] = `
+<form
+  className="ListMyPropertyForm"
+  onSubmit={[Function]}
+>
+  <div
+    role="alert"
+  />
+  <div
+    className="title"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__title"
+    >
+      Address 
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__title"
+      name="title"
+      placeholder="101 street, city, state, ZIP code"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="image"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__image"
+    >
+      Image URL  
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__image"
+      name="image"
+      placeholder="https://loremflickr.com/750/300/house?random"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <label
+      htmlFor="ListMyPropertyForm__content"
+    >
+      Propertiy Description 
+      <span
+        className="Required "
+      >
+        *
+      </span>
+    </label>
+    <input
+      className="Input "
+      id="ListMyPropertyForm__content"
+      name="content"
+      placeholder="Detail about house, 560 Sq-Ft 6 Bedrooms 2 Garage 5 Bathroom. FOR RENT"
+      required={true}
+      type="content"
+    />
+  </div>
+  <button
+    className="Button ListMyPropertyForm__submit"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

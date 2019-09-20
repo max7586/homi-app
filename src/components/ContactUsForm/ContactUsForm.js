@@ -17,7 +17,7 @@ class ContactUsForm extends Component {
     this.setState({
         name: username
     });
-    console.log(this.state.name);
+    // console.log(this.state.name);
   }
   
   
@@ -32,10 +32,10 @@ class ContactUsForm extends Component {
         this.setState({
           email: ""
       });
-      console.log("Incorrect Email, must match Expression");
+      // console.log("Incorrect Email, must match Expression");
     }
   
-    console.log(this.state.email);
+    // console.log(this.state.email);
   }
 
   
@@ -44,7 +44,7 @@ class ContactUsForm extends Component {
     this.setState({
         message: userMessage
     });
-    console.log(this.state.message);
+    // console.log(this.state.message);
   }
   //send the form
   submitForm = (e) =>{
@@ -59,14 +59,14 @@ class ContactUsForm extends Component {
         this.setState({
             formError: false
          })
-        console.log(`UserData: {
-            Username: ${this.state.name},
-            Email: ${this.state.email},
-            Message: ${this.state.message}
-        }`)
+        // console.log(`UserData: {
+        //     Username: ${this.state.name},
+        //     Email: ${this.state.email},
+        //     Message: ${this.state.message}
+        // }`)
     
     
-        console.log("form sent")
+        // console.log("form sent")
     
     }
  

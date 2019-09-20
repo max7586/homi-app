@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Button, Input, Required } from '../Utils/Utils'
 
 import PropertyApiService from '../../services/property-api-service'
+import './ListMyPropertyForm.css'
 
 export default class ListMyPropertyForm extends Component {
   static defaultProps = {
@@ -81,7 +82,7 @@ export default class ListMyPropertyForm extends Component {
           </Input>
         </div>
 
-        <Button  style={{marginBottom:70}} type='submit'>
+        <Button  className="ListMyPropertyForm__submit" type='submit'>
           Submit
         </Button>
       </form>
