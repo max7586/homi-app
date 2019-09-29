@@ -9,6 +9,18 @@ exports[`LoginPage component renders the UI as expected 1`] = `
   >
     Login 
   </h2>
+  <p>
+    To get started you can create your own account by Register or test it out by Signing In using the Demo Credentials below.
+  </p>
+  <p>
+    Demo Credentials:
+  </p>
+  <p>
+    User name: demo
+  </p>
+  <p>
+    Password: password
+  </p>
   <form
     className="LoginForm"
     onSubmit={[Function]}
