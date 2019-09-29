@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "ahmed-homi-client",
+    "name": "homi-client",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
