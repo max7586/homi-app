@@ -72,7 +72,10 @@
 .menu{
   float: right;
   line-height: 40px;
+  width: 70%;
   /* color:black; */
+  /* border: #212121 solid ; */
+  text-align: right;
 }
 .menu a{
   /* color: black; */
