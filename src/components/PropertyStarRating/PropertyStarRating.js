@@ -20,6 +20,6 @@ export function PropertyStarRating({rating}) {
 }
 
 function Star({filled}) {
-  const library = filled ? 'fas' : 'fa'
+  const library = filled ? 'fas' : 'far'
   return <FontAwesomeIcon className='black' icon={ [ library, 'star'  ]  } />
 }
