@@ -21,6 +21,10 @@ export default class LoginPage extends Component {
     return (
       <Section className='LoginPage'>
       <h2 className='LoginPage__header'>Login </h2>
+      <p>To get started you can create your own account by Register or test it out by Signing In using the Demo Credentials below.</p>
+      <p>Demo Credentials:</p>
+      <p>User name: demo</p>
+      <p>Password: password</p>
         <LoginForm
           onLoginSuccess={this.handleLoginSuccess}
         />
