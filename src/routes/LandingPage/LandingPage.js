@@ -42,7 +42,7 @@ export default class LandingPage extends Component {
         <section className="intro" >
             <h2 className="landingPageh2" id="intro">About Us</h2>
             <div>
-             <p> Homi is the pioneering real estate and rental platform devoted to inspiring customers around the location they call home with information, motivation, and expertise, and linking them with the best local experts who can help.</p>
+             <p>  HOMI is a real-estate management app. This application allows a user to add their house for sale,  buy houses from the list. User can find rental houses and as well as can rent their own house. This app helps the user to find an agent to help purchase a house. </p>
             </div>
         </section>
 
