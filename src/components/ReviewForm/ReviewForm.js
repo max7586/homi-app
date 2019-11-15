@@ -34,7 +34,7 @@ export default class ReviewForm extends Component {
             id='text'
             cols='30'
             rows='3'
-            placeholder='Type a review..'>
+            placeholder='Type a review or make an offer ..'>
           </Textarea>
         </div>
 

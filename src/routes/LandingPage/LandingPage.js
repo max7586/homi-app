@@ -42,7 +42,7 @@ export default class LandingPage extends Component {
         <section className="intro" >
             <h2 className="landingPageh2" id="intro">About Us</h2>
             <div>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+             <p> Homi is the pioneering real estate and rental platform devoted to inspiring customers around the location they call home with information, motivation, and expertise, and linking them with the best local experts who can help.</p>
             </div>
         </section>
 
@@ -57,7 +57,7 @@ export default class LandingPage extends Component {
                 to='/Properties'>
                 Buy a home
               </Link>
-                <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="service-des"> Find your place with a photo and most deals, including items you are not going to choose anywhere else.</p>
                 </div>
                 <div className="service-two">
                 <p className="service-icon"><i className="fas fa-money-bill-wave"></i></p>
@@ -67,7 +67,7 @@ export default class LandingPage extends Component {
                 Sell a home
               </Link>
 
-                <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="service-des">Simply list your property. Then If you are happy with the proposal, sell your property.</p>
             
                 </div>
                 <div className="service-three">
@@ -78,7 +78,7 @@ export default class LandingPage extends Component {
                 Rent a home
               </Link>
 
-                <p className="service-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua frefrfr erg re greg.</p>
+                <p className="service-des">Simply list your property. Then rent your property if you are satisfied with the proposal.</p>
               
           </div>
         </div>
