@@ -14,7 +14,7 @@ exports[`ReviewForm component renders the UI as expected 1`] = `
       cols="30"
       id="text"
       name="text"
-      placeholder="Type a review.."
+      placeholder="Type a review or make an offer .."
       required={true}
       rows="3"
     />

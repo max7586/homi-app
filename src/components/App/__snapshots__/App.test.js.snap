@@ -146,7 +146,7 @@ exports[`App component  renders the UI as expected 1`] = `
           </h2>
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+               Homi is the pioneering real estate and rental platform devoted to inspiring customers around the location they call home with information, motivation, and expertise, and linking them with the best local experts who can help.
             </p>
           </div>
         </section>
@@ -174,7 +174,7 @@ exports[`App component  renders the UI as expected 1`] = `
               <p
                 className="service-des"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Find your place with a photo and most deals, including items you are not going to choose anywhere else.
               </p>
             </div>
             <div
@@ -197,7 +197,7 @@ exports[`App component  renders the UI as expected 1`] = `
               <p
                 className="service-des"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Simply list your property. Then If you are happy with the proposal, sell your property.
               </p>
             </div>
             <div
@@ -220,7 +220,7 @@ exports[`App component  renders the UI as expected 1`] = `
               <p
                 className="service-des"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua frefrfr erg re greg.
+                Simply list your property. Then rent your property if you are satisfied with the proposal.
               </p>
             </div>
           </div>
