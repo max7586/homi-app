@@ -27,7 +27,7 @@
 <table>
 <tr>
 <td>
-  HOMI is a real-estate management app. It's a full-stack web-app build with React, CSS, Node, Express, and Postgresql. This application allows a user to add their house for sale,  buy houses from the list. User can find rental houses and as well as can rent their own house. This app helps the user to find an agent to help purchase house. This website does not use any third-party API. This website is supported on Chrome, Firefox, and Safari. This app is a fully responsive website. This app is totally responsive. This app is Followed by semantic HTML and the React-ful design pattern. And this app also have a11y.
+ HOMI is a real-estate management app. It's a full-stack web-app build with React, CSS, Node, Express, and Postgresql. This application allows a user to add their house for sale,  buy houses from the list. User can find rental houses and as well as can rent their own house. This app helps the user to find an agent to help purchase a house. This website does not use any third-party API. This website is supported on Chrome, Firefox, and Safari. This app is a fully responsive website. This app is totally responsive. And this app also has a11y.
 
 
 </td>
@@ -53,7 +53,7 @@
 
 * I can view all the reviews and the offer for the property.
 
-* I can list my properrty.
+* I can list my property.
 
 * I receive appropriate feedback when I cannot submit a list-my-property form
 
@@ -62,9 +62,9 @@
 
 ## Site Screenshots
 
-- landing page that explain what the app dose and how to get started.
+- landing page that explains what the app does and how to get started.
   ![](https://max7586.github.io/homi-client/images/demo/landingPage.png)
-- Properties page where the users can see all the list of property.
+- Properties page where the users can see all the list of properties.
   ![](https://max7586.github.io/homi-client/images/demo/properties.png)
 - Review page where the users can post their reviews and post an offer for this property.
   ![](https://max7586.github.io/homi-client/images/demo/reviewPage.png)
