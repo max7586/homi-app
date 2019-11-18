@@ -114,7 +114,9 @@ export default class LandingPage extends Component {
               <p className="ourAgent__icon">
                 <i className="far fa-user-circle"></i>
               </p>
-              <p>Roman Hakim romanhakim@homi.com</p>
+              <p>
+                Roman Hakim<br></br>romanhakim@homi.com
+              </p>
               <p>
                 About Roman Hailing from New York, Roman moved to Windsor, CT in
                 1999. As a consummate people person, Roman started his own

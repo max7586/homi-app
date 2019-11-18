@@ -186,7 +186,9 @@ exports[`LandingPage component renders the UI as expected 1`] = `
           />
         </p>
         <p>
-          Roman Hakim romanhakim@homi.com
+          Roman Hakim
+          <br />
+          romanhakim@homi.com
         </p>
         <p>
           About Roman Hailing from New York, Roman moved to Windsor, CT in 1999. As a consummate people person, Roman started his own five-star concierge service company to give the ultimate level of service to both second homeowners and vacation renters. After developing repeat business and long-lasting relationships, transitioning into real estate sales was natural for him. Roman is extremely knowledgeable not only with St. Regis fractionals but also with all real estate in SNR.
