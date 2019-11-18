@@ -60,7 +60,9 @@ exports[`LandingPage component renders the UI as expected 1`] = `
       </h2>
       <div>
         <p>
-            HOMI is a real-estate management app. This application allows a user to add their house for sale,  buy houses from the list. User can find rental houses and as well as can rent their own house. This app helps the user to find an agent to help purchase a house. 
+           
+          HOMI is a real-estate management app. This application allows a user to add their house for sale, buy houses from the list. User can find rental houses and as well as can rent their own house. This app helps the user to find an agent to help purchase a house.
+           
         </p>
       </div>
     </section>
@@ -88,7 +90,8 @@ exports[`LandingPage component renders the UI as expected 1`] = `
           <p
             className="service-des"
           >
-             Find your place with a photo and most deals, including items you are not going to choose anywhere else.
+             
+            Find your place with a photo and most deals, including items you are not going to choose anywhere else.
           </p>
         </div>
         <div
@@ -183,10 +186,13 @@ exports[`LandingPage component renders the UI as expected 1`] = `
           />
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. 
+          Roman Hakim romanhakim@homi.com
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+          About Roman Hailing from New York, Roman moved to Windsor, CT in 1999. As a consummate people person, Roman started his own five-star concierge service company to give the ultimate level of service to both second homeowners and vacation renters. After developing repeat business and long-lasting relationships, transitioning into real estate sales was natural for him. Roman is extremely knowledgeable not only with St. Regis fractionals but also with all real estate in SNR.
+        </p>
+        <p>
+          Prior to joining Homi, Roman worked for SNR Real Estate and spent 15 years designing and selling textiles in the garment district of Hartford. He volunteers with the SNR Homeless Shelter, picking up food donations from local markets and restaurants. Roman enjoys hiking, biking, gardening, cooking, and cross country skiing when He is not out showing real estate or furthering his real estate education. He loves people, the lifestyle this community offers, and the abundance of luxury properties as well.
         </p>
       </div>
     </section>
